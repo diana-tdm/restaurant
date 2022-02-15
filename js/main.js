@@ -19,6 +19,18 @@ function onChangeSlider() {
   dots[slider.currentSlide].classList.add("reviews__dot--active");
 }
 
+const menuSlider = new Siema({
+  selector: ".our-menu__items--mobile",
+  loop: true,
+  // onChange: onChangeSlider,
+});
+// function onChangeSlider() {
+//   console.log(slider.currentSlide);
+//   const dots = document.querySelectorAll(".reviews__dot");
+//   dots.forEach((dot) => dot.classList.remove("reviews__dot--active"));
+//   dots[slider.currentSlide].classList.add("reviews__dot--active");
+// }
+
 // const langBtn = document.querySelector(".header__button--lang");
 // const langDropdown = document.querySelector(".header-lang__dropdown");
 // langBtn.addEventListener("click", () => {
