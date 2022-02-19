@@ -41,5 +41,5 @@ modalClose.addEventListener("click", () => {
 });
 
 
-// const yearText = document.querySelector(".footer__copyright-text span");
-// yearText.innerHTML = new Date().getFullYear();
+const yearText = document.querySelector(".footer__copyright span");
+yearText.innerHTML = new Date().getFullYear();
