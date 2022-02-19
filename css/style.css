@@ -43,6 +43,7 @@ body {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow: hidden;
 }
 
 input,
@@ -1050,18 +1051,12 @@ body {
   }
 }
 
-.gallery__img {
-}
-
 @media (max-width: 576px) {
   .gallery__img {
     width: calc(100vw - 30px);
     height: calc(100vw - 30px);
     object-fit: cover;
   }
-}
-
-.gallery__img--lg {
 }
 
 /* cooks */
