@@ -1124,7 +1124,6 @@ body {
   line-height: 19px;
   color: #ffffff;
   width: 100vw;
-  max-width: 400px;
   height: 100vh;
   padding: 30px 20px;
   transform: translateX(100vw);
